@@ -8,10 +8,12 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Import;
 
 import org.example.controller.PingController;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 
 @SpringBootApplication
 @Import({ PingController.class })
+@EnableJpaAuditing
 public class Application {
 
     public static void main(String[] args) {

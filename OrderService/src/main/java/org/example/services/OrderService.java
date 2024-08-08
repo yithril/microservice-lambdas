@@ -1,8 +1,8 @@
 package org.example.services;
 
+import org.example.models.Order;
 import org.example.repositories.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
