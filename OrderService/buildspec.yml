@@ -1,0 +1,20 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo "Running pre-build steps for Order Service Lambda.."
+      - mvn clean install
+  build:
+    commands:
+      - echo "Building Order Service Lambda..."
+      - mvn package
+  post_build:
+    commands:
+      - echo "Build completed for Order Service Lambda."
+      - mkdir -p target/deployment
+      - cp target/*lambda-package.zip target/deployment/
+
+artifacts:
+  files:
+    - target/deployment/*lambda-package.zip

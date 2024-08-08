@@ -1,0 +1,65 @@
+# Java build artifacts
+**/target/
+**/*.log
+**/*.class
+
+# Maven specific files
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/*.iml
+**/target/
+
+# Eclipse specific files
+**/.classpath
+**/.project
+**/.settings/
+
+# IDEA specific files
+**/.idea/
+**/*.iws
+**/*.iml
+**/*.ipr
+
+# NetBeans specific files
+**/nbproject/private/
+**/build/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
+
+# VS Code specific files
+**/.vscode/
+
+# macOS specific files
+**/.DS_Store
+
+# Linux specific files
+**/tags
+**/TAGS
+
+# Windows specific files
+**/Thumbs.db
+**/Desktop.ini
+
+# AWS SAM specific files
+**/.aws-sam/
+
+# Build artifacts
+**/*.jar
+**/*.war
+**/*.ear
+**/*.zip
+
+# Log files
+**/*.log
+
+# Temp files
+**/*.swp
+**/*.bak
+**/*.tmp
+**/*.out
+
+# Application specific files
+**/target/deployment/
