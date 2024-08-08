@@ -4,6 +4,7 @@ phases:
   pre_build:
     commands:
       - echo "Running pre-build steps for Customer Service Lambda.."
+      - cd CustomerService
       - mvn clean install
   build:
     commands:

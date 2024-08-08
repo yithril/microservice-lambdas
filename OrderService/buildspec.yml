@@ -4,6 +4,7 @@ phases:
   pre_build:
     commands:
       - echo "Running pre-build steps for Order Service Lambda.."
+      - cd OrderService
       - mvn clean install
   build:
     commands:

@@ -4,6 +4,7 @@ phases:
   pre_build:
     commands:
       - echo "Running pre-build steps for Product Service Lambda.."
+      - cd ProductService
       - mvn clean install
   build:
     commands:
